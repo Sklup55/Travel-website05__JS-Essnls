@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><input type="text" id="searchBar" placeholder="Search..."></li>
+            <li><button id="searchButton">Search</button></li>
+            <li><button id="clearButton">Clear</button></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Main content section - Homepage -->
+        <section class="homepage">
+            <div class="background-image">
+                <!-- Add your background image -->
+            </div>
+            <div class="intro">
+                <h1>Welcome to Travel Recommendation</h1>
+                <p>Explore new destinations, cultures, and experiences with us!</p>
+            </div>
+            <div class="social-media">
+                <!-- Include social media icons here -->
+            </div>
+        </section>
+    
+        <!-- Main content section - About Us -->
+        <section class="about-us">
+            <div class="company-info">
+                <h2>About Our Company</h2>
+                <p>Insert information about your company here...</p>
+            </div>
+            <div class="team-info">
+                <h2>Our Team</h2>
+                <div class="team-member">
+                    <h3>John Doe</h3>
+                    <p>Role: CEO</p>
+                </div>
+                <div class="team-member">
+                    <h3>Jane Smith</h3>
+                    <p>Role: Marketing Manager</p>
+                </div>
+                <!-- Add more team members as needed -->
+            </div>
+        </section>
+
+
+        <!-- Main content section - Contact Us -->
+        <section class="contact-form">
+            <h1>Contact Us</h1>
+            <form id="contactForm">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    
+        <!-- Other sections or elements will go here -->
+
+
+            <!-- Results container for displaying fetched data -->
+              <div id="resultsContainer"></div>
+
+
+
+    </main>
+    
+
+    <!-- JavaScript file -->
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>

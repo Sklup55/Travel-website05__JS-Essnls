@@ -1,0 +1,60 @@
+/* Basic CSS for the navigation bar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    border-right: 2px solid;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styles for the home page */
+.background-image {
+    /* Add background image properties here */
+    background-image: url('path_to_your_image.jpg');
+    background-size: cover;
+    /* Add more styles as needed */
+}
+
+.intro {
+    /* Styles for the intro section */
+    text-align: center;
+    margin-top: 50px;
+    /* Add more styles as needed */
+}
+
+.social-media {
+    /* Styles for the social media icons */
+    text-align: center;
+    /* Add more styles as needed */
+}
+
+
+/* Styles for the results container */
+#resultsContainer {
+    margin-top: 20px; /* Adjust margin as needed */
+    padding: 10px; /* Add padding for content within the container */
+    border: 1px solid #ccc; /* Add border for visibility */
+    /* Add more styles (width, height, background, etc.) based on your design */
+}
